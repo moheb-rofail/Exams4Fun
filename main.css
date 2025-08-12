@@ -1,0 +1,242 @@
+body {
+    margin: auto;
+    padding: 15px;
+}
+
+* {
+    border-radius: 3%;
+}
+
+.header1, .header2 {
+    border-radius: 0%;
+}
+
+#sidebar>button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(81, 50, 205);
+    color: #f0f6f0;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.answerd{
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+
+.finished {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#clock {
+    position: relative;
+    top: 20px;
+    left: -40px;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    width: 25%;
+    margin: auto;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00e9fe;
+    padding: 10px;
+}
+
+.header2 {
+    background-color:#00e9fec7;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    text-align: center;
+    padding: 10px;
+}
+
+.header2>div>a {
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.header2>div>a:hover {
+    background-color: #ddd;
+}
+
+.sidebar {
+    width: 23%;
+    margin: auto;
+    padding: 10px;
+}
+
+.questionDiv {
+    width: 70%;
+}
+
+
+.QuestionContent {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+.buttondiv {
+    position: relative;
+    height: 50px;
+}
+
+.buttondiv>button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+}
+.question-button:hover {
+    transform: translateY(-2px);
+}
+#Finish {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height:48px ;
+}
+
+#pre {
+    position: absolute;
+    left: 0;
+    height: 48px;
+    border-radius: 30px;
+
+}
+
+#next {
+    position: absolute;
+    right: 0;
+    height: 48px;
+    border-radius: 30px;
+
+}
+#pre:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+#next:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+#styleYourName {
+    margin-bottom: 30px;
+}
+
+.class
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+}
+
+.footer {
+    clear: both;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: auto;
+}
+.active {
+    background-color: #f0f6f0 !important;
+    color: rgb(0, 0, 0) !important;
+
+}
+
+#aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#idea {
+    width: 73%;
+}
+
+#contactus {
+    width: 27%;
+}
+#downtime{
+    margin: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.result{
+    text-align: center;
+    justify-self: center;
+    position: relative;
+    color: #af4c4c;
+}
+
+#styleYourName {
+    margin-bottom: 20px;
+}
+
+#res{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    width: 70%;
+}
+
+#restart{
+    display: block;
+    text-align: center;
+    justify-self: center;
+}
+.center-logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.center-logo img {
+    width: 150px;
+    height: auto;
+}
+#styleblock{
+    margin-bottom: 20px;
+}
+
+
