@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams For Fun</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body onkeydown="checkkey(event)" onload="welcomeUser()">
+    <div class="parent">
+
+        <div class="header1">
+            <h3 id="welcomeMessage">Welcome,</h3>
+            <h3>English Exam</h3>
+        </div>
+        <div class="header2">
+            <div class="center-logo">
+                <img src="logo.jpeg" alt="Logo">
+            </div>
+            <div id="styleblock">
+                <a href="index.html">Home</a>
+                <a class="navlink" onclick="aboutus() ">About</a>
+                <a href="#" onclick="logout();">Logout</a>
+            </div>
+        </div>
+
+        <div id="container">
+            <div class="sidebar" id="sidebar"></div>
+            <div class="questionDiv">
+                <div id="downtime">
+                    <b>Time to finish Exam</b>
+                    <span id="thetimer">10:00</span>
+                </div>
+                <div class="QuestionContent" id="QuestionContent"></div>
+                <div class="buttondiv">
+                    <button id="pre" onclick="goBack()">previous</button>
+                    <button id="Finish" onclick="finish()">Finish</button>
+                    <button id="next" onclick="goNext()">next</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div id="aboutus">
+                <div id="idea">
+                    <h4>About Exams For Fun: </h4>
+                    <p>How we got the idea: <br>
+                        We noticed that traditional paper-based English exams lack interactivity and real-time feedback.
+                        <br>
+                        Students often wait days for results without understanding their mistakes. <br>
+                        Our solution? A dynamic web-based exam platform that instantly:
+                    <ul>
+                        <li>Provides visual progress tracking</li>
+                        <li>Offers immediate scoring</li>
+                        <li>Highlights strengths/weaknesses</li>
+                        <li>Works on any device</li>
+                    </ul>
+                    </p>
+                </div>
+                <div id="contactus">
+                    <h4>Contact our team members:</h4>
+                    <p>Feel free to contact any of our team, by phone or whatsapp using the number assigned to each one of us.</p>
+                    <ul>
+                        <li><b>Moheb</b>: +201270540673</li>
+                        <li><b>Rashwan</b>: +201091845823</li>
+                        <li><b>Younes</b>: +201122443511</li>
+                    </ul>
+
+                    
+                </div>
+            </div>
+            <p style="text-align: center">&copy; 2025 ITI - Information Technology Institute. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="JS/functions.js"></script>
+</body>
+
+</html>

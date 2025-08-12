@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="parent">
+    <div class="header1">
+        <h3 id="welcomeMessage">Welcome</h3>
+        <div id="clock"></div>
+        <h3 id="TextIntro">English Exam</h3>
+    </div>
+    <div class="header2">
+        <div class="center-logo">
+                <img src="logo.jpeg" alt="Logo">
+            </div>
+        <h1>Exams For Fun</h1>
+    </div>
+
+    <div class="QuestionContent" id="QuestionContent">
+        <form action="index.html" method="get" style="text-align: center;">
+            <div id="styleYourName">Enter Your Name</div>
+            <input type="text" id="user" required><br><br>
+            <input type="submit" onclick="wellcome()" value="Let's go">
+        </form>
+    </div>
+    
+    <div class="footer">
+        <div id="aboutus">
+                <div id="idea">
+                    <h4>About Exams For Fun: </h4>
+                    <p>How we got the idea: <br>
+                        We noticed that traditional paper-based English exams lack interactivity and real-time feedback.
+                        <br>
+                        Students often wait days for results without understanding their mistakes. <br>
+                        Our solution? A dynamic web-based exam platform that instantly:
+                    <ul>
+                        <li>Provides visual progress tracking</li>
+                        <li>Offers immediate scoring</li>
+                        <li>Highlights strengths/weaknesses</li>
+                        <li>Works on any device</li>
+                    </ul>
+                    </p>
+                </div>
+                <div id="contactus">
+                    <h4>Contact our team members:</h4>
+                    <p>Feel free to contact any of our team, by phone or whatsapp using the number assigned to each one of us.</p>
+                    <ul>
+                        <li><b>Moheb</b>: +201270540673</li>
+                        <li><b>Rashwan</b>: +201091845823</li>
+                        <li><b>Younes</b>: +201122443511</li>
+                    </ul>
+
+                    
+                </div>
+            </div>
+        <p style="text-align: center">&copy; 2025 ITI - Information Technology Institute. All Rights Reserved.</p>
+    </div>
+
+    <script>
+        function wellcome() {
+            var userinput = document.getElementById("user").value
+
+            localStorage.setItem("username", userinput)
+        }
+    </script>
+</body>
+
+</html>
