@@ -95,7 +95,7 @@ function getQuestionContent(questionNumber = 0) {
             showQuestion(xmlHttp, questionNumber);
         }
     }
-    xmlHttp.open("GET", `questions.json`, true);
+    xmlHttp.open("GET", `includes/questions.json`, true);
     xmlHttp.send();
 }
 
